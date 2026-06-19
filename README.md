@@ -6,6 +6,24 @@ EasyShare is a cross-platform application that enables seamless file and text sh
 
 **Not a single packet leaves your device outside your local network.** No analytics. No telemetry. No tracking. No phone-home. The code is open source — verify it yourself.
 
+---
+
+> **Status: work in progress.** This repo is EasyShare, the app that's becoming **Off Grid Sync**, part of the [Off Grid](https://github.com/off-grid-ai) ecosystem. What's documented below is what works today. Expect changes as the rebrand and integration land.
+
+## Where Off Grid Sync is headed
+
+EasyShare solved a specific itch: moving sensitive text and files between my own devices without a third party in the middle. Think AirDrop, but Android to macOS and back. Private, open source, no data collected. I built it because I needed it.
+
+It's becoming Off Grid Sync: the backbone that moves everything between your devices, privately, with no cloud in between. In the Off Grid ecosystem, Sync is what lets Off Grid Mobile in your pocket and Off Grid Desktop on your laptop share one context that stays on your devices and never touches a server you don't control.
+
+Today it does the private file and text transfer documented below. The move to a general device-to-device backbone is in progress, so parts of this will change before they settle.
+
+- Off Grid Mobile, on-device intelligence in your pocket: https://github.com/off-grid-ai/mobile
+- Off Grid Desktop, the intelligence layer for your laptop: https://github.com/off-grid-ai/desktop
+- The full thesis: https://github.com/off-grid-ai
+
+---
+
 ### Supported Platforms
 
 | Platform | Status |
@@ -281,8 +299,8 @@ EasyShare uses a monorepo architecture with three packages:
 #### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/easy-android-to-mac.git
-cd easy-android-to-mac
+git clone https://github.com/off-grid-ai/sync.git
+cd sync
 ```
 
 #### Step 2: Install Dependencies
