@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Cross-platform file/text sharing between Android and macOS",
+  "license": "AGPL-3.0-only",
   "workspaces": [
     "packages/*"
   ],
